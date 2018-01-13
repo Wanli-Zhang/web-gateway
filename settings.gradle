@@ -1,4 +1,2 @@
 include 'gateway'
-include 'registry'
-include 'monitor'
 
