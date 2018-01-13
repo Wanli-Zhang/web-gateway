@@ -1,8 +1,5 @@
 server:
   port: 8060
-  session:
-    cookie:
-      max-age: 604800
 
 zuul:
   routes:
@@ -13,13 +10,6 @@ zuul:
 
 management.security.enabled: false
 
-spring:
-  session:
-    store-type: redis
-
 ---
 spring:
   profiles: local
-  redis:
-    host: localhost
-    port: 6379
